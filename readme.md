@@ -1,7 +1,7 @@
 <div align="center">
 
 <h1></h1>
-<img align="" width="" src="assets/logo.svg">
+<img align="" width="" src="./assets/Logo.svg">
 
 This application was developed during Next level week, made by [Rocketseat](https://rocketseat.com.br/). 🚀
 
