@@ -18,7 +18,7 @@ This application was developed during Next level week, made by [Rocketseat](http
 
 ## ▶ Preview
 
-[![Deploy with Vercel](https://vercel.com/button)](guiorlandin-nlwesports.netlify.app)
+[![Deploy with Vercel](https://vercel.com/button)](https://guiorlandin-nlwesports.netlify.app)
 
 ## 📃 About
 
