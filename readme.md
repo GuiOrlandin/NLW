@@ -1,7 +1,7 @@
 <div align="center">
 
 <h1></h1>
-<img align="" width="" src="./assets/logo.svg">
+<img align="" width="" src="assets/logo.svg">
 
 This application was developed during Next level week, made by [Rocketseat](https://rocketseat.com.br/). 🚀
 
@@ -44,7 +44,7 @@ Page for descripton a gamer
 ## 💻 Getting started
 
 ```sh
-git clone https://github.com/xandowski/rocketcoffee.git && cd rocketcoffee
+git clone https://github.com/GuiOrlandin/NLW.git && cd NLW
 ```
 
 Download [live server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension on vscode and run.
