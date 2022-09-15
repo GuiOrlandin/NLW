@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(.//assets/backgraoundimg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-color: #121214;
+    background-position: top center;
+}
+
+header .imgperfil {
+    display: flex;
+    border-radius: 50%;
+    width: 120px;
+    overflow: hidden;
+}
+.imgborder {
+    margin-top: 32px;
+    margin-bottom: 32px; 
+    border-radius: 50%;
+    padding: 4px;
+    background: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    transition: transform .3s;
+    animation: fromTop .7s 1s backwards;
+}
+
+.imgborder:hover{
+    transform: scale(1.1);
+}
+
+
+
+section {
+    width: 100%;
+    padding-top: 4px;
+    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    border-radius: 10px;
+}
+section:nth-child(1) {
+    animation: fromBottom .7s 0.5s backwards;
+}
+section:nth-child(2) {
+    animation: fromBottom .7s 0.8s backwards;
+}
+section:nth-child(3) {
+    animation: fromBottom .7s 1.1s backwards;
+}
+
+main {
+    color: #FFFFFF;
+    font-family: 'inter', sans-serif;
+    width: 580px;
+}
+
+h1 {
+    display: flex;
+    font-weight: 900;
+    font-size: 24px;
+}
+p {
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #A1A1AA;
+}
+.itens {
+    display: flex;
+    column-gap: 16px;
+    padding-top: 24px;
+    list-style: none;
+    transition: transform .6s;
+}
+
+.itens li {
+    transition: transform .3s;
+}
+
+.itens li:hover {
+    transform: scale(1.1); 
+}
+
+.my-games {
+    display: flex;
+    flex-direction: column;
+    height: 264px;
+    background: #2A2634;
+    justify-content: center;
+    border-radius: 8px;
+    padding-left: 32px;
+    margin-bottom: 24px;
+}
+
+.channels {
+    display: flex;
+    flex-direction: column;
+    height: 214px;
+    background: #2A2634;
+    justify-content: center;
+    border-radius: 8px;
+    padding-left: 32px;
+    margin-bottom: 24px;
+
+}
+
+
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    height: 176px;
+    background: #2A2634;
+    justify-content: center;
+    border-radius: 8px;
+    padding-left: 32px;
+    margin-bottom: 44px;
+}
+
+@keyframes fromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fromBottom {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
